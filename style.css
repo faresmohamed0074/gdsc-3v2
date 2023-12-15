@@ -1,0 +1,289 @@
+* {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+.section-1 {
+	background-image: url("asset1.jpeg");
+	background-size: cover;
+	height: 100vh;
+}
+.navbar-conatainer {
+	float: left;
+	width: 60%;
+}
+.navbar {
+	float: left;
+	width: 90%;
+}
+.section-1 .logo {
+	float: left;
+	width: 40%;
+}
+.section-1 .logo img {
+	max-width: 100%;
+}
+.section-1 .nav .navbar {
+	float: left;
+}
+.section-1 .nav .navbar .li {
+	float: left;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 0 40px;
+	color: white;
+}
+.maintext {
+	margin: auto;
+	margin-top: 100px;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+.maintext h3 {
+	padding: 20px 0;
+	font-weight: 400;
+}
+.maintext .head {
+	font-size: 65px;
+	font-weight: 700;
+	padding: 50px 0;
+}
+.maintext .sechead {
+	padding: 50px 0;
+	font-size: 18px;
+	color: rgb(192, 191, 191);
+}
+.btn-box {
+	margin: auto;
+}
+.btn-1,
+.btn-2 {
+	font-size: 16px;
+	background-color: transparent;
+	width: 120px;
+	height: 50px;
+	margin: 0 20px;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	color: white;
+}
+.btn-1 {
+	background-color: rgb(188, 144, 32);
+}
+/* section 2 */
+.section-2 {
+	margin: 20px;
+}
+.section-2 center {
+	margin: 20px 0;
+}
+.section-2 .image {
+	float: left;
+	width: 50%;
+}
+.image img {
+	width: 100%;
+}
+.section-2 .text {
+	float: left;
+	width: 50%;
+}
+.text h3 {
+	font-size: 35px;
+	padding: 40px 0;
+	text-align: center;
+}
+.text .details {
+	padding-bottom: 60px;
+	line-height: 29px;
+	color: rgb(125, 124, 124);
+}
+.text .list {
+	margin: 0 40px;
+	width: 50%;
+}
+.text .list .item {
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+	margin: 0 40px;
+}
+.text .list .item p {
+}
+.text .list .item i {
+	float: left;
+	color: rgb(144, 121, 62);
+	border: 1px solid rgb(144, 121, 62);
+	padding: 10px;
+	margin-right: 15px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+/* section 3 */
+.section-3 {
+	padding-top: 25px;
+	margin-top: 30px;
+	background-color: rgb(222, 221, 221);
+}
+.section-3 .image {
+	float: right;
+	width: 50%;
+}
+.section-3 .image img {
+	max-width: 100%;
+}
+.section-3 .text {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.section-3 .text h3 {
+	font-weight: 500;
+}
+.section-3 .text p {
+	padding: 20px 0;
+	margin: auto;
+	line-height: 25px;
+	color: rgb(125, 124, 124);
+}
+/* section - 4 */
+.section-4 {
+	margin-top: 50px;
+}
+.section-4 .maps {
+	float: right;
+	margin: 15px;
+}
+.section-4 h3 {
+	font-size: 28px;
+}
+.section-4 .text {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.section-4 .text h3 {
+	font-weight: 500;
+}
+.section-4 .text p {
+	padding: 20px 0;
+	width: 90%;
+	margin: auto;
+	color: rgb(125, 124, 124);
+}
+.section-4 .text .list i {
+	background-color: rgb(144, 121, 62);
+	color: white;
+}
+.section-4 .text .list .item {
+	text-align: left;
+	float: left;
+}
+.section-4 .text .list .item p {
+	display: inline;
+}
+/* section 5 */
+.section-5 {
+	margin-top: 50px;
+	padding-top: 50px;
+	background-color: rgb(222, 221, 221);
+	text-align: center;
+}
+.section-5 .headfirst {
+	width: fit-content;
+	margin: 0 auto;
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+
+.box-container {
+}
+.box-container .box {
+	float: left;
+	margin: 50px;
+	width: calc(100% / 4);
+	text-align: center;
+}
+
+.box-container .box img {
+	width: 100%;
+}
+.box-container .box .text-container .main {
+	width: fit-content;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+/* ************ */
+.about-us {
+	padding: 20px;
+	background-color: rgb(192, 191, 191);
+}
+
+ul {
+	float: left;
+	margin: 5px;
+	list-style-type: none;
+	padding: 0;
+	width: calc(100% / 5);
+	padding: 20px;
+}
+ul h3 {
+	margin: 25px 0;
+	font-weight: 500;
+	font-size: 25px;
+}
+ul li {
+	margin: 20px 0;
+	font-size: 18px;
+}
+ul li span {
+	font-size: 24px;
+	margin: 10px;
+}
+
+.hr {
+	text-align: center;
+	width: 80%;
+	height: 2px;
+	background-color: rgb(128, 128, 128);
+}
+.dek li span {
+	text-align: left;
+	margin: 10px;
+}
+
+.footer {
+	padding-top: 35px;
+	background-color: rgb(167, 164, 164);
+}
+.footer-container {
+	width: fit-content;
+	text-align: center;
+	margin: 0 auto;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer p {
+	font-size: 22px;
+	margin: 15px 0;
+}
+.footer i {
+	font-size: 24px;
+	margin: 15px;
+}
+.clr {
+	clear: both;
+}
